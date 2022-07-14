@@ -4,7 +4,6 @@ metadata:
   name: wil-playground
 spec:
   replicas: 1
-  revisionHistoryLimit: 3
   selector:
     matchLabels:
       app: wil-playground
