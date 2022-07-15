@@ -6,5 +6,7 @@ spec:
   ports:
   - port: 8888
     targetPort: 8888
+    nodePort: 30088
   selector:
     app: wil-playground
+  type: NodePort
